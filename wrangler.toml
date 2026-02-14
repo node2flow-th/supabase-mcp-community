@@ -1,0 +1,11 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "supabase-mcp-community"
+main = "dist/worker.js"
+compatibility_date = "2025-01-01"
+
+[observability]
+enabled = true
+
+[[routes]]
+pattern = "supabase-mcp-community.node2flow.net"
+custom_domain = true

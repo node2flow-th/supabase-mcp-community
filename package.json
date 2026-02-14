@@ -1,0 +1,57 @@
+{
+  "name": "@node2flow/supabase-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Supabase — 31 tools for database CRUD, storage, auth admin, project management, edge functions, and secrets via REST + Management APIs",
+  "keywords": [
+    "supabase",
+    "postgresql",
+    "postgres",
+    "database",
+    "storage",
+    "auth",
+    "mcp",
+    "model-context-protocol",
+    "rest",
+    "api",
+    "ai",
+    "claude",
+    "cursor"
+  ],
+  "author": "Node2Flow <node2flow@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/node2flow-th/supabase-mcp-community",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/node2flow-th/supabase-mcp-community.git"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "supabase-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "deploy": "wrangler deploy",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "wrangler": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
