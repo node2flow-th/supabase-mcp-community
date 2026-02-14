@@ -1,5 +1,6 @@
 # @node2flow/supabase-mcp
 
+[![smithery badge](https://smithery.ai/badge/node2flow/supabase)](https://smithery.ai/server/node2flow/supabase)
 [![npm version](https://img.shields.io/npm/v/@node2flow/supabase-mcp.svg)](https://www.npmjs.com/package/@node2flow/supabase-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
