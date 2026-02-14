@@ -185,4 +185,13 @@ id,author:user_id(name,email)       — renamed embed
 
 ## License
 
-MIT
+MIT License - see [LICENSE](LICENSE)
+
+Copyright (c) 2026 [Node2Flow](https://node2flow.net)
+
+## Links
+
+- [npm Package](https://www.npmjs.com/package/@node2flow/supabase-mcp)
+- [Supabase Documentation](https://supabase.com/docs)
+- [MCP Protocol](https://modelcontextprotocol.io/)
+- [Node2Flow](https://node2flow.net)
