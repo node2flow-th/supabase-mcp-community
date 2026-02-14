@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "required": [],
+  "properties": {
+    "SUPABASE_URL": {
+      "type": "string",
+      "description": "Supabase project URL (e.g., https://xxx.supabase.co)"
+    },
+    "SUPABASE_SERVICE_ROLE_KEY": {
+      "type": "string",
+      "description": "Service Role key for REST API, Storage, and Auth Admin"
+    },
+    "SUPABASE_ACCESS_TOKEN": {
+      "type": "string",
+      "description": "Personal Access Token for Management API (sbp_xxx)"
+    }
+  }
+}
